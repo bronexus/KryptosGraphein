@@ -2,16 +2,22 @@
 //  KryptosGrapheinApp.swift
 //  KryptosGraphein
 //
-//  Created by Dumitru Paraschiv on 13.06.2022.
+//  Created by Dumitru Paraschiv on 10.06.2022.
 //
 
 import SwiftUI
 
 @main
 struct KryptosGrapheinApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	@StateObject var vm = KryptosViewModel()
+	
+	var body: some Scene {
+		WindowGroup {
+			NavigationView {
+				HomeView()
+			}
+			.navigationViewStyle(StackNavigationViewStyle())
+			.environmentObject(vm)
+		}
+	}
 }

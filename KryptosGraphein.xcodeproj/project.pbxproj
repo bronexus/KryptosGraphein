@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74A104BC28578910004562D4 /* KryptosGrapheinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104BB28578910004562D4 /* KryptosGrapheinApp.swift */; };
-		74A104BE28578910004562D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104BD28578910004562D4 /* ContentView.swift */; };
-		74A104C028578911004562D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A104BF28578911004562D4 /* Assets.xcassets */; };
-		74A104C328578911004562D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A104C228578911004562D4 /* Preview Assets.xcassets */; };
+		74A104D8285789E6004562D4 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104CA285789E6004562D4 /* Persistance.swift */; };
+		74A104D9285789E6004562D4 /* KryptoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104CB285789E6004562D4 /* KryptoFetcher.swift */; };
+		74A104DA285789E6004562D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A104CD285789E6004562D4 /* Preview Assets.xcassets */; };
+		74A104DC285789E6004562D4 /* KryptosGrapheinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104CF285789E6004562D4 /* KryptosGrapheinApp.swift */; };
+		74A104DD285789E6004562D4 /* KryptoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104D1285789E6004562D4 /* KryptoDetailsView.swift */; };
+		74A104DE285789E6004562D4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104D2285789E6004562D4 /* HomeView.swift */; };
+		74A104DF285789E6004562D4 /* KryptoLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104D3285789E6004562D4 /* KryptoLineView.swift */; };
+		74A104E0285789E6004562D4 /* KryptosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104D5285789E6004562D4 /* KryptosViewModel.swift */; };
+		74A104E1285789E6004562D4 /* KryptoEntityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A104D6285789E6004562D4 /* KryptoEntityViewModel.swift */; };
+		74A104E2285789E6004562D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A104D7285789E6004562D4 /* Assets.xcassets */; };
+		74A104E528578A2C004562D4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 74A104E428578A2C004562D4 /* Realm */; };
+		74A104E728578A2C004562D4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 74A104E628578A2C004562D4 /* RealmSwift */; };
+		74A104EA28578A4E004562D4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 74A104E928578A4E004562D4 /* Kingfisher */; };
+		74A104ED28578A6C004562D4 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 74A104EC28578A6C004562D4 /* SwiftUICharts */; };
+		74A104EF28578A89004562D4 /* CryptoAPI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A104EE28578A89004562D4 /* CryptoAPI.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74A104B828578910004562D4 /* KryptosGraphein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KryptosGraphein.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		74A104BB28578910004562D4 /* KryptosGrapheinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KryptosGrapheinApp.swift; sourceTree = "<group>"; };
-		74A104BD28578910004562D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		74A104BF28578911004562D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		74A104C228578911004562D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74A104CA285789E6004562D4 /* Persistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		74A104CB285789E6004562D4 /* KryptoFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KryptoFetcher.swift; sourceTree = "<group>"; };
+		74A104CD285789E6004562D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74A104CF285789E6004562D4 /* KryptosGrapheinApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KryptosGrapheinApp.swift; sourceTree = "<group>"; };
+		74A104D1285789E6004562D4 /* KryptoDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KryptoDetailsView.swift; sourceTree = "<group>"; };
+		74A104D2285789E6004562D4 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		74A104D3285789E6004562D4 /* KryptoLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KryptoLineView.swift; sourceTree = "<group>"; };
+		74A104D5285789E6004562D4 /* KryptosViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KryptosViewModel.swift; sourceTree = "<group>"; };
+		74A104D6285789E6004562D4 /* KryptoEntityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KryptoEntityViewModel.swift; sourceTree = "<group>"; };
+		74A104D7285789E6004562D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74A104EE28578A89004562D4 /* CryptoAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CryptoAPI.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A104EF28578A89004562D4 /* CryptoAPI.xcframework in Frameworks */,
+				74A104EA28578A4E004562D4 /* Kingfisher in Frameworks */,
+				74A104ED28578A6C004562D4 /* SwiftUICharts in Frameworks */,
+				74A104E728578A2C004562D4 /* RealmSwift in Frameworks */,
+				74A104E528578A2C004562D4 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +58,7 @@
 		74A104AF28578910004562D4 = {
 			isa = PBXGroup;
 			children = (
+				74A104EE28578A89004562D4 /* CryptoAPI.xcframework */,
 				74A104BA28578910004562D4 /* KryptosGraphein */,
 				74A104B928578910004562D4 /* Products */,
 			);
@@ -51,20 +75,50 @@
 		74A104BA28578910004562D4 /* KryptosGraphein */ = {
 			isa = PBXGroup;
 			children = (
-				74A104BB28578910004562D4 /* KryptosGrapheinApp.swift */,
-				74A104BD28578910004562D4 /* ContentView.swift */,
-				74A104BF28578911004562D4 /* Assets.xcassets */,
-				74A104C128578911004562D4 /* Preview Content */,
+				74A104CF285789E6004562D4 /* KryptosGrapheinApp.swift */,
+				74A104D0285789E6004562D4 /* View */,
+				74A104D4285789E6004562D4 /* ViewModel */,
+				74A104C9285789E6004562D4 /* Helpers */,
+				74A104D7285789E6004562D4 /* Assets.xcassets */,
+				74A104CC285789E6004562D4 /* Preview Content */,
 			);
 			path = KryptosGraphein;
 			sourceTree = "<group>";
 		};
-		74A104C128578911004562D4 /* Preview Content */ = {
+		74A104C9285789E6004562D4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				74A104C228578911004562D4 /* Preview Assets.xcassets */,
+				74A104CA285789E6004562D4 /* Persistance.swift */,
+				74A104CB285789E6004562D4 /* KryptoFetcher.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		74A104CC285789E6004562D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74A104CD285789E6004562D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74A104D0285789E6004562D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74A104D1285789E6004562D4 /* KryptoDetailsView.swift */,
+				74A104D2285789E6004562D4 /* HomeView.swift */,
+				74A104D3285789E6004562D4 /* KryptoLineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74A104D4285789E6004562D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74A104D5285789E6004562D4 /* KryptosViewModel.swift */,
+				74A104D6285789E6004562D4 /* KryptoEntityViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +137,12 @@
 			dependencies = (
 			);
 			name = KryptosGraphein;
+			packageProductDependencies = (
+				74A104E428578A2C004562D4 /* Realm */,
+				74A104E628578A2C004562D4 /* RealmSwift */,
+				74A104E928578A4E004562D4 /* Kingfisher */,
+				74A104EC28578A6C004562D4 /* SwiftUICharts */,
+			);
 			productName = KryptosGraphein;
 			productReference = 74A104B828578910004562D4 /* KryptosGraphein.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +159,7 @@
 				TargetAttributes = {
 					74A104B728578910004562D4 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -111,6 +172,11 @@
 				Base,
 			);
 			mainGroup = 74A104AF28578910004562D4;
+			packageReferences = (
+				74A104E328578A2C004562D4 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				74A104E828578A4E004562D4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				74A104EB28578A6C004562D4 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 74A104B928578910004562D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +191,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A104C328578911004562D4 /* Preview Assets.xcassets in Resources */,
-				74A104C028578911004562D4 /* Assets.xcassets in Resources */,
+				74A104E2285789E6004562D4 /* Assets.xcassets in Resources */,
+				74A104DA285789E6004562D4 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A104BE28578910004562D4 /* ContentView.swift in Sources */,
-				74A104BC28578910004562D4 /* KryptosGrapheinApp.swift in Sources */,
+				74A104E1285789E6004562D4 /* KryptoEntityViewModel.swift in Sources */,
+				74A104DD285789E6004562D4 /* KryptoDetailsView.swift in Sources */,
+				74A104DF285789E6004562D4 /* KryptoLineView.swift in Sources */,
+				74A104D9285789E6004562D4 /* KryptoFetcher.swift in Sources */,
+				74A104DC285789E6004562D4 /* KryptosGrapheinApp.swift in Sources */,
+				74A104DE285789E6004562D4 /* HomeView.swift in Sources */,
+				74A104D8285789E6004562D4 /* Persistance.swift in Sources */,
+				74A104E0285789E6004562D4 /* KryptosViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KryptosGraphein/Preview Content\"";
@@ -282,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mujo.KryptosGraphein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KryptosGraphein/Preview Content\"";
@@ -337,6 +412,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74A104E328578A2C004562D4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		74A104E828578A4E004562D4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		74A104EB28578A6C004562D4 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74A104E428578A2C004562D4 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74A104E328578A2C004562D4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		74A104E628578A2C004562D4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74A104E328578A2C004562D4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		74A104E928578A4E004562D4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74A104E828578A4E004562D4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		74A104EC28578A6C004562D4 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74A104EB28578A6C004562D4 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74A104B028578910004562D4 /* Project object */;
 }
